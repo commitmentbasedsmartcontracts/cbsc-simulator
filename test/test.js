@@ -1,3 +1,4 @@
+// Create the artifact
 const CBSC = artifacts.require("CBSC");
 
 contract("CBSC Simulation", async (accounts) => {
@@ -77,8 +78,8 @@ contract("CBSC Simulation", async (accounts) => {
           console.log();
           console.log(
             "  CommitRuleML template file run-" +
-              time +
-              ".commitruleml generated"
+            time +
+            ".commitruleml generated"
           );
           console.log();
         }
